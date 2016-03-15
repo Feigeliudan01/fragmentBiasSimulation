@@ -39,7 +39,7 @@ write.table(txdf[idx,c("GENEID","TXNAME")], file="t2g-map", row.names=FALSE, col
 
 # if quantifiers need a GTF file
 # write(paste0('"',sample.tx.names,'"'), file="transcripts")
-# system("grep -f transcripts ../geuvadis/genesStandard.gtf > transcripts.gtf")
+# system("grep -f transcripts genesStandard.gtf > transcripts.gtf")
 
 # subset the exons by transcript object
 gene.factor <- factor(txdf$GENEID[idx])
