@@ -80,10 +80,10 @@ fragGCBias <- function(x, data) {
 
 # load Mike's fork of polyester which adds fragment GC-content bias
 # (along with some other bookkeeping tweaks, allowing 0 reads, etc)
-# https://github.com/mikelove/polyester
-# git clone git@github.com:mikelove/polyester.git
+# https://github.com/mikelove/polyesterAlpineMs
+# git clone git@github.com:mikelove/polyesterAlpineMs.git
 library(devtools)
-load_all("../../polyester")
+load_all("../polyester")
 
 # now run polyester
 

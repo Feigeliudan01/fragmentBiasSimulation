@@ -7,7 +7,7 @@ library(BSgenome.Hsapiens.UCSC.hg19)
 # using the same transcript database (TxDb) as the Geuvadis analysis
 # otherwise you can use a different TxDb, with the line:
 # txdb <- makeTxDbFromGFF("/path/to/genes.gtf")
-txdb <- loadDb("genesStandard.sqlite")
+txdb <- loadDb("data/genesStandard.sqlite")
 
 # make some objects for later
 # the exons of each transcript
