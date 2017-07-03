@@ -48,7 +48,7 @@ names(ebt) <- sample.tx.names
 
 # get the DNA sequence
 dssl <- getSeq(Hsapiens, ebt)
-dna <- as(lapply(dssl, unlist), "DNAStringSet")
+dna <- unstrsplit(dssl)
 
 # write the DNA sequence
 library(Rsamtools)

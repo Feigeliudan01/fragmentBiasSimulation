@@ -83,7 +83,7 @@ fragGCBias <- function(x, data) {
 # https://github.com/mikelove/polyesterAlpineMs
 # git clone git@github.com:mikelove/polyesterAlpineMs.git
 library(devtools)
-load_all("../polyester")
+load_all("../polyesterAlpineMs")
 
 # now run polyester
 
